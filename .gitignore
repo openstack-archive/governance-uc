@@ -1,0 +1,7 @@
+.tox
+doc/build
+*.egg-info
+pbr*.egg
+*.pyc
+AUTHORS
+ChangeLog
