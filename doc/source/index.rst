@@ -28,11 +28,6 @@ Reference documents and Resolutions
 
    reference/index
 
-.. seealso::
-
-  See the UserCommittee_ page in the wiki for details on how to propose
-  governance changes.
-
 .. _`OpenStack Foundation bylaws`: http://www.openstack.org/legal/bylaws-of-the-openstack-foundation/
 
 .. _UserCommittee: https://wiki.openstack.org/wiki/Governance/UserCommittee
