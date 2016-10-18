@@ -30,6 +30,7 @@ Active User Contributors
 Users are recognized as part of the community and therefore granted with
 AUC (Active User Contributor) status when they have engaged in one or more of
 the following activities:
+
 * Organizers of any of the groups.openstack.org
 * Active members and contributors to functional teams and/or working groups
 * Moderators of any of the operators official meet-up sessions
@@ -67,7 +68,7 @@ Process for Creating a New Working Group/Functional Team
 ========================================================
 * `Complete Working Group Template: <https://wiki.openstack.org/wiki/Working_Group_Template>`_
 * Join the user-committee mailing list and communicate your intention to start a
-new team to the User Committee via the same mailing list
+  new team to the User Committee via the same mailing list
 * Mailing list: user-committee@lists.openstack.org
 * Update UC wiki page with the entry for the new team. <https://wiki.openstack.org/wiki/Governance/Foundation/UserCommittee>`_
 * UC approves or denies the request before it becomes an active working
