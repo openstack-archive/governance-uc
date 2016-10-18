@@ -31,7 +31,7 @@ Users are recognized as part of the community and therefore granted with
 AUC (Active User Contributor) status when they have engaged in one or more of
 the following activities:
 
-* Organizers of any of the groups.openstack.org
+* Organizers of Official OpenStack User Groups
 * Active members and contributors to functional teams and/or working groups
 * Moderators of any of the operators official meet-up sessions
 * Contributors to any repository under the UC governance
