@@ -70,7 +70,7 @@ Process for Creating a New Working Group/Functional Team
 * Join the user-committee mailing list and communicate your intention to start a
   new team to the User Committee via the same mailing list
 * Mailing list: user-committee@lists.openstack.org
-* Update UC wiki page with the entry for the new team. <https://wiki.openstack.org/wiki/Governance/Foundation/UserCommittee>`_
+* `Update UC wiki page with the entry for the new team. <https://wiki.openstack.org/wiki/Governance/Foundation/UserCommittee>`_
 * UC approves or denies the request before it becomes an active working
 group or functional team
 
