@@ -1,6 +1,6 @@
-====================================================
- OpenStack User Committee Governance Documents
-====================================================
+==========================
+ OpenStack User Committee
+==========================
 
 The OpenStack User Committee is one of the governing bodies of the
 OpenStack project.
