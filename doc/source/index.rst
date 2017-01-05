@@ -18,6 +18,20 @@ Current Members
 .. memberstable::
       :datafile: ../../reference/members
 
+Teams
+===============
+
+.. teamtable::
+      :datafile: ../../reference/teams.yaml
+
+Working Groups
+===============
+
+.. teamtable::
+      :datafile: ../../reference/working-groups.yaml
+      :headers: Name,Chairs,Status,Mission
+
+
 Reference documents and Resolutions
 ===================================
 

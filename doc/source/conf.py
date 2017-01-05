@@ -33,6 +33,7 @@ extensions = [
     'sphinx.ext.extlinks',
     'oslosphinx',
     'members',
+    'teamtable',
 ]
 
 todo_include_todos = True

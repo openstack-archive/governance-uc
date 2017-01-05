@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 #    Licensed under the Apache License, Version 2.0 (the "License"); you may
 #    not use this file except in compliance with the License. You may obtain
 #    a copy of the License at
@@ -10,65 +12,38 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
-"""Build a table of the current members of the UC.
+"""Build a table of the current teams
 """
-
-import re
 
 from docutils import nodes
 from docutils.parsers.rst.directives.tables import Table
 from docutils.parsers.rst import directives
 
-# Full name (IRC nickname) [expires in] {role}
-_PATTERN = re.compile('(?P<name>.*)\s+\((?P<irc>.*)\)\s+\[(?P<date>.*)\](\s+\{(?P<role>.*)\})?')
+import yaml
 
 
-def _parse_members_file(app, filename):
-    """Load the members file and return each row as a dictionary.
-    """
-    with open(filename, 'r') as f:
-        for linum, line in enumerate(f, 1):
-            line = line.strip()
-            if not line or line.startswith('#'):
-                continue
-            m = _PATTERN.match(line)
-            if not m:
-                app.warning('Could not parse line %d of %s: %r' %
-                            (linum, filename, line))
-                continue
-            yield m.groupdict()
-
-
-class MembersTable(Table):
+class TeamTable(Table):
     """Insert the members table using the referenced file as source.
     """
-
-    HEADERS = ('Full Name', 'IRC Nickname', 'Term Expires', 'Role')
-    HEADER_MAP = {
-        'Full Name': 'name',
-        'IRC Nickname': 'irc',
-        'Term Expires': 'date',
-        'Role': 'role',
-    }
+    HEADERS = ('Name', 'Chairs', 'Mission')
 
     option_spec = {'class': directives.class_option,
                    'name': directives.unchanged,
                    'datafile': directives.unchanged,
+                   'headers': directives.unchanged,
                    }
-
-    has_content = False
-
     def run(self):
         env = self.state.document.settings.env
         app = env.app
-        config = app.config
 
+        if self.options.get('headers') is not None:
+            self.HEADERS = self.options.get('headers').split(",")
         # The required argument to the directive is the name of the
         # file to parse.
         datafile = self.options.get('datafile')
         if not datafile:
             error = self.state_machine.reporter.error(
-                'No filename in membertable directive',
+                'No filename in teamtable directive',
                 nodes.literal_block(self.block_text, self.block_text),
                 line=self.lineno)
             return [error]
@@ -93,21 +68,11 @@ class MembersTable(Table):
         # Now find the real path to the file, relative to where we are.
         rel_filename, filename = env.relfn2path(datafile)
 
-        # Build the table node using the parsed file
-        data_iter = _parse_members_file(app, filename)
-        table_node = self.build_table(
-            data_iter,
-            col_widths,
-        )
-        table_node['classes'] += self.options.get('class', [])
-        self.add_name(table_node)
+        app.info('loading teamtable')
+        app.info('reading %s' % filename)
+        with open(filename, 'r') as f:
+            _teams_yaml = yaml.load(f.read())
 
-        if title:
-            table_node.insert(0, title)
-
-        return [table_node] + messages
-
-    def build_table(self, table_data, col_widths):
         table = nodes.table()
 
         # Set up the column specifications
@@ -133,22 +98,36 @@ class MembersTable(Table):
         tbody = nodes.tbody()
         tgroup += tbody
         rows = []
-        for row in table_data:
+
+        all_teams = _teams_yaml
+        for team in sorted(all_teams.keys()):
             trow = nodes.row()
             # Iterate over the headers in the same order every time.
             for h in self.HEADERS:
-                # Get the cell value from the row data, replacing None
-                # in re match group with empty string.
-                cell = row.get(self.HEADER_MAP[h]) or ''
-                entry = nodes.entry()
-                para = nodes.paragraph(text=str(cell))
+                if h.lower() == "name":
+                    cell = "<p><a href=\"%s\">%s</a>" % (all_teams[team]['url'], team)
+                    entry = nodes.entry()
+                    para = nodes.raw('', cell, format='html')
+                else:
+                    # Get the cell value from the row data, replacing None
+                    # in re match group with empty string.
+                    cell = all_teams[team][h.lower()] or ''
+                    entry = nodes.entry()
+                    para = nodes.paragraph(text=str(cell))
                 entry += para
                 trow += entry
             rows.append(trow)
         tbody.extend(rows)
 
-        return table
+        # Build the table node
+        table['classes'] += self.options.get('class', [])
+        self.add_name(table)
+
+        if title:
+            table.insert(0, title)
+
+        return [table] + messages
+
 
 def setup(app):
-    app.info('loading members extension')
-    app.add_directive('memberstable', MembersTable)
+    app.add_directive('teamtable', TeamTable)
