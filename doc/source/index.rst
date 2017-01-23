@@ -32,6 +32,14 @@ Working Groups
       :headers: Name,Chairs,Status,Mission
 
 
+UC Elections
+============
+
+.. toctree::
+   :maxdepth: 1
+
+   reference/uc-election-feb2017
+
 Reference documents and Resolutions
 ===================================
 
