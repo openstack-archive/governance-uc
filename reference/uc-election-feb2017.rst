@@ -20,8 +20,8 @@ Governance/TieBreaking.
 Timeline
 ========
 
-January 30 - February 3, 05:59 UTC: Open candidacy for UC positions
-February 6 - February 10, 11:59 UTC: TC elections (voting)
+January 30 - February 10, 05:59 UTC: Open candidacy for UC positions
+February 13 - February 17, 11:59 UTC: UC elections (voting)
 
 Elected Positions
 =================
