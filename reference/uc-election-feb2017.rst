@@ -8,20 +8,20 @@ standards of behavior during User Committee elections.
 Officials
 =========
 
-Matt Jarvis - matt at mattjarvis dot org dot uk
-Matt Van Winkle - mvanwink at rackspace dot com
+| Matt Jarvis - matt at mattjarvis dot org dot uk
+| Matt Van Winkle - mvanwink at rackspace dot com
 
 Election System
 ===============
 Elections will be held using CIVS and a Condorcet algorithm
 (Schulze/Beatpath/CSSD variant). Any tie will be broken using
-Governance/TieBreaking.
+`Governance/TieBreaking <https://wiki.openstack.org/wiki/Governance/TieBreaking>`_.
 
 Timeline
 ========
 
-January 30 - February 10, 05:59 UTC: Open candidacy for UC positions
-February 13 - February 17, 11:59 UTC: UC elections (voting)
+| January 30 - February 10, 05:59 UTC: Open candidacy for UC positions
+| February 13 - February 17, 11:59 UTC: UC elections (voting)
 
 Elected Positions
 =================
@@ -43,11 +43,11 @@ Candidates
 Any individual member of the foundation who is an Active User Contributors
 (AUC) can propose their candidacy (except the three UC members who were appointed
 prior to the elected system based on UC charter resolution: Shilla Saebi,
-Jonathan Proulx and Edgar Magana.
+Jonathan Proulx, and Edgar Magana.
+
 Self-nomination is common, no third party nomination is required. They do so by
 sending an email to the user-committee@lists.openstack.org mailing-list, with
 the subject: "UC candidacy" by February 3, 05:59 UTC. The email can include a
 description of the candidate platform. The candidacy is then confirmed by
 one of the election officials, after verification of the electorate status of
 the candidate.
-
