@@ -47,7 +47,7 @@ Jonathan Proulx, and Edgar Magana.
 
 Self-nomination is common, no third party nomination is required. They do so by
 sending an email to the user-committee@lists.openstack.org mailing-list, with
-the subject: "UC candidacy" by February 3, 05:59 UTC. The email can include a
+the subject: "UC candidacy" by February 10, 05:59 UTC. The email can include a
 description of the candidate platform. The candidacy is then confirmed by
 one of the election officials, after verification of the electorate status of
 the candidate.
