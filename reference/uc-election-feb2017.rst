@@ -33,9 +33,9 @@ Electorate
 ==========
 The electorate for this election are the Foundation individual members that
 are also Active User Contributors (AUC) over the last six months.
-The electorate is requested to confirm their email address in gerrit,
-review.openstack.org > Settings > Contact Information > Preferred Email, prior
-to February 4, 2017 05:59 UTC so that the emailed ballots are mailed to the
+The electorate is requested to confirm their email address and (if applicable) IRC handle
+in their Foundation Member Profile, https://openstack.org/profile ,
+prior to February 4, 2017 05:59 UTC so that the emailed ballots are mailed to the
 correct email address.
 
 Candidates
