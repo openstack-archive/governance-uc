@@ -35,23 +35,13 @@ Users are recognized as part of the community and therefore granted with
 AUC (Active User Contributor) status when they have engaged in one or more of
 the following activities:
 
-* Organizers of Official OpenStack User Groups:
-`<https://github.com/OpenStackweb/openstack-org/blob/master/auc-metrics/code/services/OfficialUserGroupOrganizerService.php>`_
-* Active members and contributors to functional teams and/or working groups
-(currently also manually calculated for WGs not using IRC):
-`<https://github.com/openstack/uc-recognition/blob/master/tools/get_active_wg_members.py>`_
-* Moderators of any of the operators official meet-up sessions:
-`<Currently manually calculated.>`_
-* Contributors to any repository under the UC governance:
-`<https://github.com/openstack/uc-recognition/blob/master/tools/get_active_commiters.py>`_
-* Track chairs for OpenStack summits:
-`<https://github.com/OpenStackweb/openstack-org/blob/master/auc-metrics/code/services/TrackChairService.php>`_
-* Contributors to Superuser (articles, interviews, user stories, etc.):
-`<https://github.com/OpenStackweb/openstack-org/blob/master/auc-metrics/code/services/SuperuserService.php>`_
-* Active moderators on ask.openstack.org:
-`<https://github.com/openstack/uc-recognition/blob/master/tools/get_active_moderator.py>`_
-* Contributors to any repository under the UC governance (e.g. os-ops and user stories)
-`<https://github.com/openstack/uc-recognition/blob/master/tools/get_active_commiters.py>`_
+* Organizers of Official OpenStack User Groups: `from the Groups Portal <https://github.com/OpenStackweb/openstack-org/blob/master/auc-metrics/code/services/OfficialUserGroupOrganizerService.php>`_
+* Active members and contributors to functional teams and/or working groups (currently also manually calculated for WGs not using IRC): `from IRC logs <https://github.com/openstack/uc-recognition/blob/master/tools/get_active_wg_members.py>`_
+* Moderators of any of the operators official meet-up sessions: Currently manually calculated.
+* Contributors to any repository under the UC governance: `from Gerrit <https://github.com/openstack/uc-recognition/blob/master/tools/get_active_commiters.py>`_
+* Track chairs for OpenStack summits: `from the Track Chair tool <https://github.com/OpenStackweb/openstack-org/blob/master/auc-metrics/code/services/TrackChairService.php>`_
+* Contributors to Superuser (articles, interviews, user stories, etc.): `from the Superuser backend <https://github.com/OpenStackweb/openstack-org/blob/master/auc-metrics/code/services/SuperuserService.php>`_
+* Active moderators on ask.openstack.org: `from Ask OpenStack <https://github.com/openstack/uc-recognition/blob/master/tools/get_active_moderator.py>`_
 
 UC Chair and Membership
 =======================
