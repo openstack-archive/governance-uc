@@ -17,3 +17,98 @@ Large Deployment Team:
       email:
       expires-in:
       comment:
+
+Massively Distributed Clouds:
+  chairs:
+    - name: Adrien Lebre
+      irc:
+      email:
+  mission: >
+     To debate and investigate how OpenStack can address Fog/Edge Computing use-cases.
+  url: https://wiki.openstack.org/wiki/Massively_Distributed_Clouds
+  status: active
+  aucs:
+    - name:
+      irc:
+      email:
+      expires-in:
+  extra-aucs:
+    - name:
+      email:
+      expires-in:
+      comment:
+
+Ops Tags Team:
+  chairs:
+    - name: Tom Fifield
+      irc:
+      email:
+    - name: Edgar Magana
+      irc:
+      email:
+    - name: Matt van Winkle
+      irc:
+      email:
+    - name: Melvin Hillsman
+      irc:
+      email:
+    - name: Saverio Proto
+      irc:
+      email:
+    - name: Shamail Tahir
+      irc:
+      email:
+  mission: >
+     To define tags for ops, allowing users to make better decisions by providing useful information about OpenStack software projects.
+  url: https://wiki.openstack.org/wiki/Operations/Tags
+  status: active
+  aucs:
+    - name:
+      irc:
+      email:
+      expires-in:
+  extra-aucs:
+    - name:
+      email:
+      expires-in:
+      comment:
+
+Operators Telecom/NFV:
+  chairs:
+    - name: Curtis Collicutt
+      irc:
+      email:
+  mission: >
+     Work with the OpenStack community and ecosystem to benefit OpenStack Operators specifically running telecommunication services and Network Function Virtualization (NFV) systems utilizing OpenStack.
+  url: https://wiki.openstack.org/wiki/Ops-telecom-nfv
+  status: active
+  aucs:
+    - name:
+      irc:
+      email:
+      expires-in:
+  extra-aucs:
+    - name:
+      email:
+      expires-in:
+      comment:
+
+Financial Team:
+  chairs:
+    - name:
+      irc:
+      email:
+  mission: >
+    Coordinate users, service providers, and developers to find and fill the gaps for OpenStack adoption in financial industry.
+  url:
+  status: active
+  aucs:
+    - name:
+      irc:
+      email:
+      expires-in:
+  extra-aucs:
+    - name:
+      email:
+      expires-in:
+      comment:
