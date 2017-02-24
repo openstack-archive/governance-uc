@@ -36,12 +36,12 @@ AUC (Active User Contributor) status when they have engaged in one or more of
 the following activities:
 
 * Organizers of Official OpenStack User Groups: `from the Groups Portal <https://github.com/OpenStackweb/openstack-org/blob/master/auc-metrics/code/services/OfficialUserGroupOrganizerService.php>`_
-* Active members and contributors to functional teams and/or working groups (currently also manually calculated for WGs not using IRC): `from IRC logs <https://github.com/openstack/uc-recognition/blob/master/tools/get_active_wg_members.py>`_
+* Active members and contributors to functional teams and/or working groups (currently also manually calculated for WGs not using IRC): `from IRC logs <https://git.openstack.org/cgit/openstack/uc-recognition/tree/tools/get_active_wg_members.py>`_
 * Moderators of any of the operators official meet-up sessions: Currently manually calculated.
-* Contributors to any repository under the UC governance: `from Gerrit <https://github.com/openstack/uc-recognition/blob/master/tools/get_active_commiters.py>`_
+* Contributors to any repository under the UC governance: `from Gerrit <https://git.openstack.org/cgit/openstack/uc-recognition/tree/tools/get_active_commiters.py>`_
 * Track chairs for OpenStack summits: `from the Track Chair tool <https://github.com/OpenStackweb/openstack-org/blob/master/auc-metrics/code/services/TrackChairService.php>`_
 * Contributors to Superuser (articles, interviews, user stories, etc.): `from the Superuser backend <https://github.com/OpenStackweb/openstack-org/blob/master/auc-metrics/code/services/SuperuserService.php>`_
-* Active moderators on ask.openstack.org: `from Ask OpenStack <https://github.com/openstack/uc-recognition/blob/master/tools/get_active_moderator.py>`_
+* Active moderators on ask.openstack.org: `from Ask OpenStack <https://git.openstack.org/cgit/openstack/uc-recognition/tree/tools/get_active_moderator.py>`_
 
 UC Chair and Membership
 =======================
@@ -101,13 +101,17 @@ performed under the oversight of the UC.
 
 Process for Creating a New Working Group/Functional Team
 ========================================================
-* `Complete Working Group Template: <https://wiki.openstack.org/wiki/Working_Group_Template>`_
-* Join the user-committee mailing list and communicate your intention to start a
-  new team to the User Committee via the same mailing list.
-* Mailing list: user-committee@lists.openstack.org
-* `Update UC wiki page with the entry for the new team. <https://wiki.openstack.org/wiki/Governance/Foundation/UserCommittee>`_
-* UC approves or denies the request before it becomes an active working
-group or functional team.
+* `Complete Working Group Template
+  <https://wiki.openstack.org/wiki/Working_Group_Template>`_
+* Join the `user-committee mailing list
+  (user-committee@lists.openstack.org)
+  <http://lists.openstack.org/cgi-bin/mailman/listinfo/user-committee>`_
+  and communicate your intention to start a new team to the User
+  Committee via the same mailing list.
+* `Update UC wiki page with the entry for the new
+  team. <https://wiki.openstack.org/wiki/Governance/Foundation/UserCommittee>`_
+* UC approves or denies the request before it becomes an active
+  working group or functional team.
 
 Initial Committee
 =================
