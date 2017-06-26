@@ -38,6 +38,7 @@ UC Elections
 .. toctree::
    :maxdepth: 1
 
+   reference/uc-election-aug2017
    reference/uc-election-feb2017
 
 Reference documents and Resolutions
