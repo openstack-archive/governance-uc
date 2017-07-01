@@ -105,7 +105,14 @@ class TeamTable(Table):
             # Iterate over the headers in the same order every time.
             for h in self.HEADERS:
                 if h.lower() == "name":
-                    cell = "<p><a href=\"%s\">%s</a>" % (all_teams[team]['url'], team)
+                    cell = "<a href=\"%s\">%s</a>" % (all_teams[team]['url'], team)
+                    entry = nodes.entry()
+                    para = nodes.raw('', cell, format='html')
+                elif h.lower() == "chairs":
+                    chairs = []
+                    for chair in all_teams[team]['chairs']:
+                        chairs.append("%s<br />" % (chair['name']))
+                    cell = "".join(chairs)
                     entry = nodes.entry()
                     para = nodes.raw('', cell, format='html')
                 else:
