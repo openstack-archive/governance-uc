@@ -8,3 +8,4 @@ Reference documents which need to be revised over time.
    :maxdepth: 1
 
    charter
+   new-uc-group-requirements
