@@ -19,16 +19,16 @@ and accessibility of the teams for new community members.
 
 The first step is to determine whether you want to establish a
 Working Group or Team.
-* Working Groups are temporary with short
-or medium term goals and exist until they have achieved such
-goals(e.g. proposing logging enhancements, discussing how to
-increase the scalability of OpenStack clouds, etc.).
+
+* Working Groups are temporary with short or medium term goals
+  and exist until they have achieved such goals(e.g. proposing
+  logging enhancements, discussing how to increase the scalability
+  of OpenStack clouds, etc.).
 * Teams are permanent addressing areas that require ongoing collaboration
-and iteration to execute their objective (e.g. representing
-enterprise needs in the community, performing product management
-like functions in the community, etc.) as long as they maintain a
-meaningful mission in order to help the UC to achieve its
-mission.
+  and iteration to execute their objective (e.g. representing enterprise
+  needs in the community, performing product management like functions
+  in the community, etc.) as long as they maintain a meaningful mission
+  in order to help the UC to achieve its mission.
 
 When considering new working groups/teams for addition, the UC will check that:
 -------------------------------------------------------------------------------
@@ -36,11 +36,12 @@ When considering new working groups/teams for addition, the UC will check that:
 * **The working group/team aligns with the User Committee mission**
 * **The group must have a clear and defined scope and duration of the effort**
 * **The group follows the OpenStack way (“the 4 opens”):**
+
   * **Open Source:**
-    
+
     * Follows the OpenStack project definition of Open Source.
   * **Open Community:**
-    
+
     * The leadership is chosen by the contributors to
       the group
     * The group has regular public meetings on IRC (at least
@@ -59,7 +60,7 @@ When considering new working groups/teams for addition, the UC will check that:
       resources or other proprietary resources available only to those
       contributors.
   * **Open Development:**
-    
+
     * The group uses etherpads for all meetings
     * If the group is using other content collaboration tools, those artifacts
       should be linked in an etherpad and be publicly accessible.
@@ -69,7 +70,7 @@ When considering new working groups/teams for addition, the UC will check that:
     * If the group requires a repository, it should be created under the
       governance of the UC.
   * **Open Design:**
-    
+
     * The group direction is discussed at the Forum and/or on public forums,
       and mailing lists.
     * The group uses the user-committee ML and UC IRC meetings to discuss issues.
