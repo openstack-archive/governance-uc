@@ -8,7 +8,7 @@ standards of behavior during User Committee elections.
 Officials
 =========
 
-| Official 1 TBD
+| Amy Marrich <amy at demarco dot com>
 | Official 2 TBD
 
 Election System
