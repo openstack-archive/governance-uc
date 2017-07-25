@@ -9,7 +9,7 @@ Officials
 =========
 
 | Amy Marrich <amy at demarco dot com>
-| Official 2 TBD
+| Ed Leafe <ed at leafe dot com>
 
 Election System
 ===============
