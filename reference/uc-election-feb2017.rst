@@ -51,3 +51,8 @@ the subject: "UC candidacy" by February 10, 05:59 UTC. The email can include a
 description of the candidate platform. The candidacy is then confirmed by
 one of the election officials, after verification of the electorate status of
 the candidate.
+
+Result
+======
+Melvin Hillsman and Shamail Tahir were elected.
+* Full Results: http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_4ec37f2d06428110

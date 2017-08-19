@@ -50,3 +50,8 @@ the subject: "UC candidacy" by August 11, 05:59 UTC. The email can include a
 description of the candidate platform. The candidacy is then confirmed by
 one of the election officials, after verification of the electorate status of
 the candidate.
+
+Results
+=======
+Edgar Magana, Matt van Winkle and Saverio Proto were elected.
+* Full Results: http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_a6460623fa15b328
