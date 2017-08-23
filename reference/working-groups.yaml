@@ -20,3 +20,141 @@ AUC Recognition:
       email:
       expires-in:
       comment:
+
+API Working Group:
+  chairs:
+    - name: Chris Dent
+      irc:
+      email:
+    - name: Michael McCune
+      irc:
+      email:
+    - name: Everett Toews
+      irc:
+      email:
+  mission: >
+     To improve the developer experience of API users by converging the OpenStack API to a consistent and pragmatic RESTful design.
+  url: https://wiki.openstack.org/wiki/API_Working_Group
+  status: active
+  aucs:
+    - name:
+      irc:
+      email:
+      expires-in:
+  extra-aucs:
+    - name:
+      email:
+      expires-in:
+      comment:
+
+Enterprise Working Group:
+  chairs:
+    - name: Yih Leong Sun
+      irc:
+      email:
+  mission: >
+     Action plans to solve Enterprise Private Cloud needs and issues.
+  url: https://wiki.openstack.org/wiki/Enterprise_Working_Group
+  status: active
+  aucs:
+    - name:
+      irc:
+      email:
+      expires-in:
+  extra-aucs:
+    - name:
+      email:
+      expires-in:
+      comment:
+
+Fault-Genes Working Group:
+  chairs:
+    - name: Nemat Bidokhti
+      irc:
+      email:
+    - name: Rochelle (Rocky) Grober
+      irc:
+      email:
+  mission: >
+     The Fault Genes Working Group's goal is to be the DNA of OpenStack fault-tolerance.
+  url: https://wiki.openstack.org/wiki/Fault_Genes_Working_Group
+  status: active
+  aucs:
+    - name:
+      irc:
+      email:
+      expires-in:
+  extra-aucs:
+    - name:
+      email:
+      expires-in:
+      comment:
+
+LCOO Working Group:
+  chairs:
+    - name: Jamey McCabe
+      irc:
+      email:
+  mission: >
+     The working group aims to collaborate with the Product Working Group (PWG), other working groups and community-wide stakeholders to define the use cases and identify and prioritize the requirements which are needed to deploy, manage, and run services on top of OpenStack.
+  url: https://wiki.openstack.org/wiki/LCOO
+  status: active
+  aucs:
+    - name:
+      irc:
+      email:
+      expires-in:
+  extra-aucs:
+    - name:
+      email:
+      expires-in:
+      comment:
+
+Scientific Working Group:
+  chairs:
+    - name: Stig Telfer
+      irc:
+      email:
+    - name: Blair Blethwaite
+      irc:
+      email:
+  mission: >
+     The Scientific Working Group is dedicated to representing and advancing the use-cases and needs of research and high-performance computing atop OpenStack.
+  url: https://wiki.openstack.org/wiki/Scientific_working_group
+  status: active
+  aucs:
+    - name:
+      irc:
+      email:
+      expires-in:
+  extra-aucs:
+    - name:
+      email:
+      expires-in:
+      comment:
+
+Public Cloud Working Group:
+  chairs:
+    - name: Tobias Rydberg
+      irc:
+      email: tobias@citynetwork.se
+    - name: Howard Huang
+      irc:
+      email: huangzhipeng@huawei.com
+    - name: Sean Handley
+      irc:
+      email: sean.handley@datacentred.co.uk
+  mission: >
+     The aim of this group is to represent the interests of the OpenStack public cloud provider community, and to further adoption of OpenStack public cloud usage.
+  url: https://wiki.openstack.org/wiki/PublicCloudWorkingGroup
+  status: active
+  aucs:
+    - name:
+      irc:
+      email:
+      expires-in:
+  extra-aucs:
+    - name:
+      email:
+      expires-in:
+      comment:
