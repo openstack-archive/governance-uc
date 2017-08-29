@@ -93,6 +93,32 @@ Operators Telecom/NFV:
       expires-in:
       comment:
 
+Product Team:
+  chairs:
+    - name: Yih Leong Sun
+      irc: leong
+      email:
+    - name: Shamail Tahir
+      irc: shamail
+      email:
+    - name: Kei Tokunaga
+      irc: kei
+      email:
+  mission: >
+    To aggregate user stories from market-oriented work groups, partner with the development community on resources, and help gather data to generate a multi-release roadmap.
+  url: https://wiki.openstack.org/wiki/ProductTeam
+  status: active
+  aucs:
+    - name:
+      irc:
+      email:
+      expires-in:
+  extra-aucs:
+    - name:
+      email:
+      expires-in:
+      comment:
+
 Financial Team:
   chairs:
     - name:
