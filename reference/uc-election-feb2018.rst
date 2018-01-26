@@ -8,8 +8,8 @@ standards of behavior during User Committee elections.
 Officials
 =========
 
-| {Official's Name - Official's Email}
-| {Official's Name - Official's Email}
+| Shilla Saebi - shilla.saebi at gmail dot com 
+| Tim Bell - tim.bell at cern dot ch
 
 Election System
 ===============
