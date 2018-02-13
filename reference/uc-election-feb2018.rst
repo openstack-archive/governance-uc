@@ -21,7 +21,7 @@ Timeline
 ========
 
 | January 29 - February 11, 05:59 UTC: Open candidacy for UC positions
-| February 12 - February 18, 11:59 UTC: UC elections (voting)
+| February 19 - February 25, 11:59 UTC: UC elections (voting)
 
 Elected Positions
 =================
