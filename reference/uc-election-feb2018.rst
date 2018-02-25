@@ -29,7 +29,7 @@ Under the rules of the UC charter, we need to elect 2 UC seats for this
 election. Seats are valid for one-year term. User Committee member - 3
 positions*.
 
-* We have one member stepping down during this particular election
+\* We have one member stepping down during this particular election
 requiring us to elect 3 positions.
 
 Electorate
@@ -37,7 +37,7 @@ Electorate
 The electorate for this election are the Foundation individual members that
 are also Active User Contributors (AUC) over the last six months.
 The electorate is requested to confirm their email address and (if applicable) IRC handle
-in their Foundation Member Profile, https://openstack.org/profile ,
+in their `Foundation Member Profile <https://openstack.org/profile>`_,
 prior to February 5, 2017 05:59 UTC so that the emailed ballots are mailed to the
 correct email address.
 
@@ -55,5 +55,5 @@ the candidate.
 
 Result
 ======
-{Members Elected} were elected.
-* Full Results: {Official Results Link}
+| Melvin Hillsman, Amy Marrich, and Yih Leong Sun were elected.
+|\* Full Results: https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_f7b17dc638013045
