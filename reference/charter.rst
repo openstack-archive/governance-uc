@@ -113,14 +113,6 @@ Process for Creating a New Working Group/Functional Team
 * UC approves or denies the request before it becomes an active
   working group or functional team.
 
-Initial Committee
-=================
-The current UC will serve as UC until the elections in Spring 2017. At that
-point, the current three UC members who still had 6 months to serve get a
-6-month seat, and an election is run to determine the other two members.
-Candidates ranking 1st and 2nd would get one-year seats. Fall 2017 elections
-should see the normal renewal of 3 seats for one-year period.
-
 Committee Election
 ==================
 The allotted number of UC seats are partially renewed every 6 months using
