@@ -8,8 +8,9 @@ standards of behavior during User Committee elections.
 Officials
 =========
 
-| TBD
-| TBD
+| Chandan Kumar - chkumar246 at gmail dot com
+| Ed Leafe - ed at leafe dot com
+| Mohamed Elsakhawy - m2elsakha at gmail dot com
 
 Election System
 ===============
