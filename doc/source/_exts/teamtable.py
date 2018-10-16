@@ -12,14 +12,16 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
-"""Build a table of the current teams
-"""
+"""Build a table of the current teams"""
+
+import yaml
 
 from docutils import nodes
 from docutils.parsers.rst.directives.tables import Table
 from docutils.parsers.rst import directives
+from sphinx.util import logging
 
-import yaml
+LOG = logging.getLogger(__name__)
 
 
 class TeamTable(Table):
@@ -34,7 +36,6 @@ class TeamTable(Table):
                    }
     def run(self):
         env = self.state.document.settings.env
-        app = env.app
 
         if self.options.get('headers') is not None:
             self.HEADERS = self.options.get('headers').split(",")
@@ -68,8 +69,8 @@ class TeamTable(Table):
         # Now find the real path to the file, relative to where we are.
         rel_filename, filename = env.relfn2path(datafile)
 
-        app.info('loading teamtable')
-        app.info('reading %s' % filename)
+        LOG.info('loading teamtable')
+        LOG.info('reading %s' % filename)
         with open(filename, 'r') as f:
             _teams_yaml = yaml.load(f.read())
 
