@@ -53,7 +53,7 @@ Reference documents and Resolutions
 
    reference/index
 
-.. _`OpenStack Foundation bylaws`: http://www.openstack.org/legal/bylaws-of-the-openstack-foundation/
+.. _`OpenStack Foundation bylaws`: https://www.openstack.org/legal/bylaws-of-the-openstack-foundation/
 
 .. _UserCommittee: https://wiki.openstack.org/wiki/Governance/UserCommittee
 
