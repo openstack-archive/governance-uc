@@ -8,8 +8,8 @@ standards of behavior during User Committee elections.
 Officials
 =========
 
-# Example: remove when officials have been identified
-| First Last - first.last at email dot com
+| Mohamed Elsakhawy m2elsakha at gmail dot com
+| Jonathan Proulx jon at csail dot mit dot edu
 
 Election System
 ===============
@@ -20,8 +20,8 @@ Elections will be held using CIVS and a Condorcet algorithm
 Timeline
 ========
 
-| January 21 - February 03, 05:59 UTC: Open candidacy for UC positions
-| February 04 - February 10, 11:59 UTC: UC elections (voting)
+| February 04 - February 17, 05:59 UTC: Open candidacy for UC positions
+| February 18 - February 24, 11:59 UTC: UC elections (voting)
 
 Elected Positions
 =================
