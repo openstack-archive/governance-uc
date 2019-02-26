@@ -4,7 +4,7 @@
 
 Mission
 =======
-The User Committee’s (UC) mission is to serve the user community of
+The User Committee's (UC) mission is to serve the user community of
 OpenStack, representing them to the broader community (including the Technical
 Committee, Board of Directors, Projects and PTLs, and projects outside
 OpenStack). The UC recognizes competence and contribution, and when necessary
@@ -59,7 +59,7 @@ Foundation bylaws.
 Meetings
 ========
 UC meetings happen publicly, bi-weekly on IRC. The meeting times should be
-decided among UC members. If there isn’t consensus on a meeting time, the
+decided among UC members. If there isn't consensus on a meeting time, the
 option of rotating the time weekly should be explored. The UC maintains an
 open agenda on the wiki. The UC meeting is automatically called if anything
 is posted to that wiki by one of its members at least one day before the
@@ -118,7 +118,7 @@ Committee Election
 The allotted number of UC seats are partially renewed every 6 months using
 staggered elections: the minority number of seats are renewed every (Northern
 hemisphere) Spring, and the majority number of seats are renewed every Fall.
-Seats are valid for one-year terms. For this election we’ll use a single-winner
+Seats are valid for one-year terms. For this election we'll use a single-winner
 election system. The election is held no later than 3 weeks prior to each
 OpenStack Summit, with elections held open for no less than four business days.
 

@@ -35,7 +35,7 @@ When considering new working groups/teams for addition, the UC will check that:
 
 * **The working group/team aligns with the User Committee mission**
 * **The group must have a clear and defined scope and duration of the effort**
-* **The group follows the OpenStack way (“the 4 opens”):**
+* **The group follows the OpenStack way ("the 4 opens"):**
 
   * **Open Source:**
 
@@ -48,14 +48,14 @@ When considering new working groups/teams for addition, the UC will check that:
       once a month during those months in which the group is actively
       working on items) and those meetings are logged, published in the
       OpenStack meeting calendar via Eavesdrop, and held in an official
-      official OpenStack meeting channels once the project’s
-      application is accepted, if they’re not held there already.
+      official OpenStack meeting channels once the project's
+      application is accepted, if they're not held there already.
     * If the team uses alternative methods of communication to augment
       public meetings on IRC then they should provide a summary of
       their meetings on the User Committee mailing list.
     * The group shall provide a level and open collaboration playing field
       for all contributors. The group shall not benefit a single vendor, or
-      a single vendor’s product offerings; nor advantage contributors
+      a single vendor's product offerings; nor advantage contributors
       from a single vendor organization due to access to information,
       resources or other proprietary resources available only to those
       contributors.
