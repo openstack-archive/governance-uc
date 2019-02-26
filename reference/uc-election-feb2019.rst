@@ -52,5 +52,5 @@ the candidate.
 
 Result
 ======
-| ... were elected.
-|\* Full Results:
+| Amy Marrich, Belmiro Moreira, and John Studarus were elected.
+|\* Full Results: https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_8760d5969c6275f1&rkey=75d7d496f7e50780
