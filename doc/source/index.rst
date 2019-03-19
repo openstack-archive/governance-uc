@@ -56,5 +56,5 @@ Reference documents and Resolutions
 
 .. _`OpenStack Foundation bylaws`: https://www.openstack.org/legal/bylaws-of-the-openstack-foundation/
 
-.. _UserCommittee: https://wiki.openstack.org/wiki/Governance/UserCommittee
+.. _UserCommittee: https://wiki.openstack.org/wiki/Governance/Foundation/UserCommittee
 
