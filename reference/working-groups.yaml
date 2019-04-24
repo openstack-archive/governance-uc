@@ -40,26 +40,3 @@ LCOO Working Group:
       email:
       expires-in:
       comment:
-
-Public Cloud Working Group:
-  chairs:
-    - name: Tobias Rydberg
-      irc:
-      email: tobias.rydberg@citynetwork.eu
-    - name: Howard Huang
-      irc:
-      email: huangzhipeng@huawei.com
-  mission: >
-     The aim of this group is to represent the interests of the OpenStack public cloud provider community, and to further adoption of OpenStack public cloud usage.
-  url: https://wiki.openstack.org/wiki/PublicCloudWorkingGroup
-  status: active
-  aucs:
-    - name:
-      irc:
-      email:
-      expires-in:
-  extra-aucs:
-    - name:
-      email:
-      expires-in:
-      comment:
