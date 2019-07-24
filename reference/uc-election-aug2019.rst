@@ -8,7 +8,8 @@ standards of behavior during User Committee elections.
 Officials
 =========
 
-| TBD
+| Ian Y. Choi ianyrchoi at gmail dot com
+| Second official TBD
 
 Election System
 ===============
