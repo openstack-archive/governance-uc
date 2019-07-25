@@ -9,7 +9,7 @@ Officials
 =========
 
 | Ian Y. Choi ianyrchoi at gmail dot com
-| Second official TBD
+| Ed Leafe ed at leafe dot com
 
 Election System
 ===============
