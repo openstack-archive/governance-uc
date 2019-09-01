@@ -20,7 +20,7 @@ Elections will be held using CIVS and a Condorcet algorithm
 Timeline
 ========
 
-| August 26 - August 30, 05:59 UTC: Open candidacy for UC positions
+| August 26 - August 31, 05:59 UTC: Open candidacy for UC positions
 | September 1 - September 4, 11:59 UTC: UC elections (voting)
 
 Elected Positions
@@ -52,4 +52,4 @@ the candidate.
 Results
 =======
 
-| TBD
+| Jaesuk Ahn bluejay dot ahn at gmail dot com
