@@ -58,7 +58,7 @@ Foundation bylaws.
 
 Meetings
 ========
-UC meetings happen publicly, bi-weekly on IRC. The meeting times should be
+UC meetings happen publicly, weekly on IRC. The meeting times should be
 decided among UC members. If there isn't consensus on a meeting time, the
 option of rotating the time weekly should be explored. The UC maintains an
 open agenda on the wiki. The UC meeting is automatically called if anything
