@@ -54,3 +54,7 @@ the candidate.
 
 Results
 =======
+The two nominated candidates were selected since they ran unopposed.
+
+| Matt Van Winkle
+| Joseph Sandoval
