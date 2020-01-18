@@ -38,7 +38,7 @@ UC Elections
 .. toctree::
    :maxdepth: 1
 
-   reference/uc-election-sep2020
+   reference/uc-election-feb2020
    reference/uc-election-sep2019
    reference/uc-election-aug2019
    reference/uc-election-feb2019

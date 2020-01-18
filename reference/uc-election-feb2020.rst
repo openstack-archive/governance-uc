@@ -8,7 +8,9 @@ standards of behavior during User Committee elections.
 Officials
 =========
 
-| TBD
+Rain Leander rainleander AT gmail DOT com
+Amy Marrich amy AT demarco DOT com
+
 
 Election System
 ===============
