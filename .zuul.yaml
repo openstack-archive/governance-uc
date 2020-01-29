@@ -1,3 +1,6 @@
 - project:
     templates:
       - build-openstack-docs-pti
+    promote:
+      jobs:
+        - promote-governance-uc
