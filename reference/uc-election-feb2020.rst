@@ -52,4 +52,4 @@ the candidate.
 
 Result
 ======
-| TBD
+This election was canceled due to a lack of nominations.
