@@ -9,3 +9,4 @@ Reference documents which need to be revised over time.
 
    charter
    new-uc-group-requirements
+   running-a-uc-election

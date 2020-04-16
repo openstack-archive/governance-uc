@@ -55,5 +55,7 @@ the candidate.
 
 Result
 ======
-| Melvin Hillsman, Amy Marrich, and Yih Leong Sun were elected.
-|\* Full Results: https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_f7b17dc638013045
+
+Melvin Hillsman, Amy Marrich, and Yih Leong Sun were elected.
+
+* Full Results: https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_f7b17dc638013045
