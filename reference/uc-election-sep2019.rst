@@ -1,6 +1,6 @@
-========================
+===========================
 UC Elections September 2019
-========================
+===========================
 
 We expect all members of our community to adhere to the highest
 standards of behavior during User Committee elections.

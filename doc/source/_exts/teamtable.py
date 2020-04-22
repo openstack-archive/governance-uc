@@ -72,7 +72,7 @@ class TeamTable(Table):
         LOG.info('loading teamtable')
         LOG.info('reading %s' % filename)
         with open(filename, 'r') as f:
-            _teams_yaml = yaml.load(f.read())
+            _teams_yaml = yaml.safe_load(f.read())
 
         table = nodes.table()
 
