@@ -1,9 +1,10 @@
-This repository contains OpenStack User Committee reference documents
-and tracks official resolutions voted by the committee.
+This project is no longer maintained.
 
-Directory structure:
-    reference/
-        Reference documents which need to be revised over time.
+The contents of this repository are still available in the Git
+source code management system.  To see the contents of this
+repository before it reached its end of life, please check out the
+previous commit with "git checkout HEAD^1".
 
-See https://wiki.openstack.org/wiki/Governance/UserCommittee for details.
-
+For any further questions, please email
+openstack-discuss@lists.openstack.org or join #openstack-dev on
+OFTC.
